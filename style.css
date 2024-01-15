@@ -86,9 +86,19 @@ h4 {
 .card-top{
   border: 1px solid #000;
   display: flex;
+  align-items: center;
   gap: 25px;
   margin-bottom: 1.875rem;
 }
+
+.card-top > h1{
+  font-size: xx-large;
+}
+
+.card-top > img {
+  width: 1.5rem;
+}
+
 .q-a-sec{
   display: flex;
   flex-direction: column;
@@ -107,10 +117,6 @@ h4 {
   justify-content: space-between;
   align-items: center;
 }
-
-
-
-
 
 
 .attribution {
