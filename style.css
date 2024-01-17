@@ -2,6 +2,7 @@
 :root {
   --White: hsl(0, 0%, 100%);
   --lightPink: hsl(276, 71%, 95%);
+  --hoverState: #8e3fba;
   --grayishPurple: hsl(290, 11%, 33%);
   --paragraph: hsl(291, 16%, 63%);
   --darkPurple: hsl(292, 42%, 14%);
@@ -156,11 +157,21 @@ h4 {
   }
 }
 
+.question-container__s2-summary:hover{
+  color: var(--hoverState);
+  cursor: pointer;
+}
+
 .question-container__s2-details-icon {
   position: absolute;
   width: 30px;
   right: 0;
   top: -3px;
+  cursor: pointer;
+}
+
+#minus{
+  display: none;
 }
 
 .answer {
