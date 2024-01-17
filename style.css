@@ -77,32 +77,32 @@ h4 {
   padding: 1.25rem 0.9375rem;
   position: absolute;
   background: var(--White);
-  top: 150px;
+  top: 9.375rem;
   left: 0;
   right: 0;
   margin: 0 auto;
-  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
-    0 8px 10px -6px var(--lightPink);
+  box-shadow: 0 1.25rem 1.5625rem -0.3125rem rgb(0 0 0 / 0.1),
+    0 .5rem .625rem -0.375rem var(--lightPink);
   @media (min-width: 48rem) {
-        top: 100px;
+        top: 6.25rem;
     padding: 2.5rem;
     max-width: 38rem;
   }
   @media (min-width: 56.25rem) {
-    top: 120px;
+    top: 7.5rem;
   }
   @media (min-width: 64rem) {
-    top: 160px;
+    top: 10rem;
   }
   @media (min-width: 75rem) {
-    top: 185px;
+    top: 11.5625rem;
   }
 }
 
 .card-top {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 1.5625rem;
   margin-bottom: 1.875rem;
 }
 
@@ -134,7 +134,7 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .question {
@@ -164,9 +164,9 @@ h4 {
 
 .question-container__s2-details-icon {
   position: absolute;
-  width: 30px;
+  width: 1.875rem;
   right: 0;
-  top: -3px;
+  top: -0.1875rem;
   cursor: pointer;
 }
 
@@ -183,7 +183,7 @@ h4 {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: .6875rem;
   text-align: center;
   display: none;
 }
